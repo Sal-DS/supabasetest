@@ -60,9 +60,9 @@
                 data.forEach(item => {
                   resultadoHTML += `
                     <li class="list-group-item">
-                      Nome: ${item.nome}<br>
-                      CPF: ${item.cpf}<br>
-                      Detido por: ${item.crime}
+                      <b>Nome:</b> ${item.nome}<br>
+                      <b>CPF:</b> ${item.cpf}<br>
+                      <b>Crime:</b> ${item.crime}
                     </li>`;
                 });
                 resultadoHTML += '</ul>';
@@ -78,4 +78,5 @@
         });
     </script>
   </body>
+
 </html>
